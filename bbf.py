@@ -45,8 +45,6 @@ tanggal = ("%s-%s-%s-%s"%(hr, ha, op, ta))
 tgl = ("%s %s %s"%(ha, op, ta))
 bulan_ttl = {"01": "januari", "02": "februari", "03": "maret", "04": "april", "05": "mei", "06": "juni", "07": "juli", "08": "agustus", "09": "september", "10": "oktober", "11": "november", "12": "desember"}
 
-os.system("git clone https://github.com/ahmadrecodexd/smbf")
-
 def logo():
 	os.system("clear")
 	ip = requests.get("http://ip-api.com/json/").json()["query"]
