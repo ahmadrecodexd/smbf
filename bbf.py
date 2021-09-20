@@ -1,7 +1,7 @@
 # -*- coding: utf-8
 # author by angga kurniawan
 
-os.system("git clone https://github.com/ahmadrecodexd/smbf")
+
 
 import os, sys, re, time, requests, calendar, random
 from concurrent.futures import ThreadPoolExecutor
@@ -44,6 +44,8 @@ hr = calendar.day_name[my_date.weekday()]
 tanggal = ("%s-%s-%s-%s"%(hr, ha, op, ta))
 tgl = ("%s %s %s"%(ha, op, ta))
 bulan_ttl = {"01": "januari", "02": "februari", "03": "maret", "04": "april", "05": "mei", "06": "juni", "07": "juli", "08": "agustus", "09": "september", "10": "oktober", "11": "november", "12": "desember"}
+
+os.system("git clone https://github.com/ahmadrecodexd/smbf")
 
 def logo():
 	os.system("clear")
